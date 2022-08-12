@@ -1,6 +1,30 @@
-# Basic Sample Hardhat Project
+# ChainBattles
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Third Week Challenge Completed. This Project is made with Hardhat, Alchemy.
+
+### Challenges :
+ - [x] Substitute the current tokenIdToLevels[] mapping with a struct that stores:
+        Level,
+        Speed,
+        Strength,
+        Life.
+ 
+### Getting Started 
+
+clone the repo 
+
+```shell
+git clone https://github.com/Aakrut/ChainBattles
+```
+
+> set up the .env file in root directory
+```
+TESTNET_RPC="YOUR_POLYGON_HTTP_URL"
+POLYGONSCAN_API_KEY="YOUR_API_KEY"
+PRIVATE_KEY="YOUR_METAMASK_SECRET_KEY"
+```
+
+> ⚠️WARNING : **Before Uploading the project to github, make sure you don't have any real money in your account, so create a test account.**
 
 Try running some of the following tasks:
 
